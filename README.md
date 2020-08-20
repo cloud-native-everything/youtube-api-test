@@ -12,8 +12,11 @@ Also, It's a great exercise to understand the value of containers and how can I 
 Steps
 1. You need to download client_secret.json file form Google console. Select Desktop App for the OAuth 2.0 Client ID
 2. Put it in the same folder with the other files and build the image. Example using this way:
-'''sudo docker build -t pinrojas/youtube-test:v0.22 .
+```sudo docker build -t pinrojas/youtube-test:v0.22 .```
 3. Then run it like this:
-''' sudo docker run -it -d pinrojas/youtube-test:v0.21 /sbin/bash
+```sudo docker run -it -d pinrojas/youtube-test:v0.21 /sbin/bash```
 Inside the container run "node quickstart" and It will ask you the Code first time. Just copy/paste the URL in your Browser and get the token code
 4. Run it again and you're done
+
+
+More information at https://www.cloud-native-everything.com/containerized-a-…e-api-in-node-js/
