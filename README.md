@@ -19,4 +19,4 @@ Inside the container run "node quickstart" and It will ask you the Code first ti
 4. Run it again and you're done
 
 
-More information at https://www.cloud-native-everything.com/containerized-a-…e-api-in-node-js/
+More information or if you have questions go at https://www.cloud-native-everything.com/containerized-a-…e-api-in-node-js/
